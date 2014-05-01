@@ -1,0 +1,117 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 70px;
+}
+
+@media (min-height: 570px) {
+  body {
+    padding-bottom:300px;
+  }
+}
+@media (min-height: 870px) {
+  body {
+    padding-bottom:400px;
+  }
+}
+
+footer {
+  padding: 30px 0;
+}
+h2 {
+  font-size:36px;
+  margin-top:35px;
+}
+label .popover {
+  font-weight: normal;
+}
+
+.anchor {
+  position: relative;
+  top: -72px;
+  visibility: hidden;
+}
+
+.nodisplay, .form-inline .form-control.nodisplay {
+  display:none;
+}
+
+#submit_get_link, #submit_link {
+  width:100%;
+}
+
+#reset_form {
+  opacity:0.5;
+}
+
+.dropdown-toggle .hidden-sm {
+  display: inline-block!important;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .dropdown-toggle .hidden-sm {
+    display: none!important;
+  }
+}
+
+.dropdown-menu .hidden-sm {
+  display: inline-block!important;  
+}
+
+
+@media (min-width: 0) {
+  .input-can-lock {
+    width:80%;
+    display: inline-block;
+  }
+  .btn-lock {
+    width:18%;
+  }
+}
+
+
+@media (min-width: 440px) {
+  .input-can-lock {
+    width:89%;
+    display: inline-block;
+  }
+  .btn-lock {
+    width:9%;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .input-can-lock {
+    width:91%;
+    display: inline-block;
+  }
+  .btn-lock {
+    width:8%;
+  }
+}
+
+
+@media (min-width: 991px) {
+  .input-can-lock {
+    width:92%;
+    display: inline-block;
+  }
+  .btn-lock {
+    width:7%;
+  }
+}
+
+.simple_content .container .row {
+  opacity:0.5;
+}
+
+#simple_content_show {
+  opacity: 1;
+}

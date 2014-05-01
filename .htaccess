@@ -1,0 +1,12 @@
+Options -Multiviews
+Options -Indexes
+
+RewriteEngine On
+
+RewriteBase   /
+
+RewriteRule ^(en|de|fr|es|it|fa|pe|uk)/(.*)$ $2?lang=$1 [QSA,L]
+RewriteRule ^(.*)(en|de|fr|es|it|fa|pe|uk)$ $1$2/ [QSA,R=301,L]
+
+RewriteCond %{REQUEST_URI} !/fonts/
+RewriteRule ^(.*)([a-z0-9]{4,8})(/?)$ /$1?id_conf=$2 [L,NC,QSA]
