@@ -635,7 +635,7 @@ Referer : " . $_SERVER['HTTP_REFERER'] . "
 
 
 			<footer>
-				<p>&copy; <?php echo date('Y'); ?> www.pstartoolbox.com</p>
+				<p>&copy; <?php echo date('Y'); ?> www.pstartoolbox.com - Polarstar Toolbox is an <a href="https://github.com/p-bizouard/pstartoolbox">Open Source project</a>, under MIT License</p>
 			</footer>
 
 		</div><!--/.container-->
